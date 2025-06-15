@@ -20,6 +20,6 @@ def init_server(host: str, port: int):
 
 if __name__ == '__main__':
     HOST = 'localhost'
-    PORT = 9000
+    PORT = 8000
 
     init_server(HOST, PORT)

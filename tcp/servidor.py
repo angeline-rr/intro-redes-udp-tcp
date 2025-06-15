@@ -5,7 +5,7 @@ def init_server(host: str, port: int):
     server_socket.bind((host, port))
     server_socket.listen(1)
 
-    print(f'Server em {host}:{port}')
+    print(f'Server TCP iniciado em {host}:{port}')
 
     client_socket, address = server_socket.accept()
 
