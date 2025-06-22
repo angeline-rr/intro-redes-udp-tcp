@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/angeline-rr/meu-servidor/client"
-	"github.com/angeline-rr/meu-servidor/server"
+	"github.com/angeline-rr/intro-redes-udp-tcp/meu-servidor/client"
+	"github.com/angeline-rr/intro-redes-udp-tcp/meu-servidor/server"
 )
 
 func main() {
